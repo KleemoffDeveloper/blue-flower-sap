@@ -7,11 +7,6 @@ a {
     text-decoration: none;
 }
 
-body {
-   
-   
-}
-
 h1 {
     color: #66CC66;
     display: inline-flex;
@@ -22,14 +17,6 @@ h1 {
 li {
     list-style: none;
 }
-
-li > img {
-    display: inline;
-    float: left; 
-    height: 20%;
-    width: 36px;
-    /* background: after #555;  */
-} 
 
 p {
     align-items: center;
@@ -44,21 +31,29 @@ p {
 
 /* Classes */
 
+.logo {
+    display: inline;
+    float: left; 
+    height: 20%;
+    width: 36px;
+    /* background: after #555;  */
+}
+
 .nav {
     background-color: rgb(97, 97, 97);
     border: 10px solid rgb(97, 97, 97);
+    display: inline
     margin: 20px;
     text-align: center;
-    width: 98%;
+    width: auto;
 
 }
 
 .nav li {
     color: white;
     cursor: pointer;
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
-    justify-content: space-evenly;
     /* text-align: center; */
     /* width: 100%; */
 }

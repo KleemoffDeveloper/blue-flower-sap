@@ -4,26 +4,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PetsRUs - Home</title>
     <link rel="stylesheet" href="style.css">
-    <script src="./src/index.js"></script>
+    <script defer src="./src/index.js"></script>
+    <title>Home Page</title>
 </head>
 <body>
-
-    <header class="nav">
-        <img class="logo" src="https://cdn-icons-png.flaticon.com/512/616/616430.png">
-        <ul>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Pets</a></li>
-            <li><a href="#">Contact</a></li>
+    <header>
+        <a href="/index.html"id="main-button"><img class="logo" src="https://cdn-icons-png.flaticon.com/512/489/489399.png" alt ="company logo"></a>
+        <h1 id="heading">PetsRUs</h1>
+        <ul class="nav">
+            <li id="about-button">About Us</li>
+            <li id="adopt-button">Adopt</li>
+            <li id="contact-button">Contact</li>
         </ul>
     </header>
-    <main class="main">
-        <h1>PetsRUs</h1>
-        <img src="./images/cat1.jpg" height="456">
+
+<!-- Homepage -->
+    <ul id="main-page"class="main">
+        <br>
+       <img src="https://images.prismic.io/trustedhousesitters/7fc17967-e246-4cd6-ab52-cd23a47fe939_do+dogs+get+sad+5.png?auto=compress,format&rect=0,0,1920,800&w=960&h=400" alt="picture of a sad black dog">
         <p>
-         Welcome to the best place to find abandoned pets.
+        The best place to adopt pets.
         </p>
-    </main>
+    </ul>
+S
+<!-- About US -->
+    <ul id="about-page" class="subpage invisible">
+        <p> This is my contact info</p>
+    </ul>
+
+<!-- Contact -->
+    <ul id="contact-page" class="subpage invisible">
+        <fieldset>
+            <form>
+                <input type="email" placeholder="Email">
+            </form>
+        </fieldset>
+    </ul>
+
+<!-- Adoption -->
+    <ul id="adopt-page" class="subpage invisible">
+        <p><strong>Adoption Fees:</strong> 
+            We encourage a $150 suggested adoption fee when adopting an animal to help continue our lifesaving work and help even more animals in need. We are grateful for any and all amounts given at the time of adoption.
+        </p>
+        <hr>
+    </ul>
+<hr>
+
 </body>
-</html
+</html>
