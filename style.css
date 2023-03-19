@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+   
+   
+}
+
+h1 {
+    color: #66CC66;
+    display: inline-flex;
+    /* align-items: center; */
+}
+
+
+li {
+    list-style: none;
+}
+
+li > img {
+    display: inline;
+    float: left; 
+    height: 20%;
+    width: 36px;
+    /* background: after #555;  */
+} 
+
+p {
+    align-items: center;
+    background-color: lightgrey;
+    border: 3px solid lightgrey;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 5px;
+}
+
+/* Classes */
+
+.nav {
+    background-color: rgb(97, 97, 97);
+    border: 10px solid rgb(97, 97, 97);
+    margin: 20px;
+    text-align: center;
+    width: 98%;
+
+}
+
+.nav li {
+    color: white;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* text-align: center; */
+    /* width: 100%; */
+}
+
+.subpage-adopt {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Any tag inside of this class */
+
+.subpage {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.invisible {
+    display: none;
+}
+
+/* iPhones and stuff */
+@media only screen and (max-width: 425px) {
+    .logo {
+        width: 36px;
+    }
+}
