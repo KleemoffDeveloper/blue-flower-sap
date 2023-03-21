@@ -24,7 +24,7 @@ window.onload = () => {
 let viewAbout = () => {
     subpages.contact.classList.add("invisible")
     subpages.adopt.classList.add("invisible")
-    subpages.main.classList.add("invisibile")
+    subpages.main.classList.add("invisible")
     subpages.about.classList.remove("invisible")
   
 }
@@ -33,7 +33,7 @@ let viewContact = () => {
     subpages.about.classList.add("invisible")
     subpages.contact.classList.remove("invisible")
     subpages.adopt.classList.add("invisible")
-    subpages.main.classList.add("invisibile")
+    subpages.main.classList.add("invisible")
 
 }
 
