@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <script defer src="./src/index.js"></script>
     <title>Home Page</title>
@@ -14,32 +17,34 @@
         <a href="/index.html"id="main-button"><img class="logo" src="https://cdn-icons-png.flaticon.com/512/489/489399.png" alt ="company logo"></a>
         <h1 id="heading">PetsRUs</h1>
         <ul class="nav">
-            <li id="about-button">About Us</li>
-            <li id="adopt-button">Adopt</li>
-            <li id="contact-button">Contact</li>
+            <li id="search-bar" class="top-nav"><input type="text" placeholder="Search.."><button id="search-bar-button">Submit</i></button></li>
+            <li id="about-button" class="top-nav">About Us</li>
+            <li id="adopt-button" class="top-nav">Adopt</li>
+            <li id="contact-button" class="top-nav">Contact</li>
         </ul>
     </header>
 
 <!-- Homepage -->
     <ul id="main-page"class="main">
-        <p id="top-text">Join Us Today<br>Make a Change in Their Lives</p>
+        <p id="top-text">Join Us Today<br>To Make a Change in Their Lives</p>
         <button id="top-button">DONATE</button>
         <img id="pet-bottom" src="https://images.prismic.io/trustedhousesitters/7fc17967-e246-4cd6-ab52-cd23a47fe939_do+dogs+get+sad+5.png?auto=compress,format&rect=0,0,1920,800&w=960&h=400" alt="picture of a sad black dog">
-        <p>
+        <p id="body-text">
         The best place to adopt pets.
         </p>
     </ul>
 
 <!-- About US -->
     <ul id="about-page" class="subpage invisible">
-        <p> </p>
+        <h1 id="about-heading"></h1>
         <textarea>Why We Started?</textarea>
     </ul>
 
 <!-- Contact -->
     <ul id="contact-page" class="subpage invisible">
+        <h1 id="contact-heading">Contact Info</h1>
         <fieldset>
-            <h1 id="contact-header">Contact Info</h1>
+            
             <form>
                 <input type="email" placeholder="Email">
             </form>
@@ -48,12 +53,13 @@
 
 <!-- Adoption -->
     <ul id="adopt-page" class="subpage invisible">
+        <h1 id="adopt-heading">How To Adopt</h1>
         <p><strong>Adoption Fees:</strong> 
             We encourage a $150 suggested adoption fee when adopting an animal to help continue our lifesaving work and help even more animals in need. We are grateful for any and all amounts given at the time of adoption.
         </p>
         <hr>
     </ul>
-<hr>
+    <hr>
 
 </body>
 </html>
