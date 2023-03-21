@@ -6,17 +6,15 @@
 a {
     text-decoration: none;
 }
-body {
+/* body {
 
     display: grid;
     grid-template-rows: 1fr;
 
-}
+} */
 
 h1 {
     color: #66CC66;
-    display: inline-flex;
-    /* align-items: center; */
 }
 
 
@@ -35,8 +33,23 @@ p {
     padding: 5px;
 }
 
-/* Classes */
-#top-text {
+/* Classes & IDs */
+
+#contact-heading, {
+
+}
+
+#heading {
+    
+    float: left;
+    font-size: 2em;
+    left: 100px;
+    letter-spacing: 2px;
+    position: absolute;
+   
+}
+
+#top-button {
     background-color: aquamarine;
     border-color: blue;
     color: black ;
@@ -45,10 +58,16 @@ p {
     padding: 20px;
     position: absolute;
     left: 10px;
-    
 }
+#top-text {
+
+    position: absolute;
+    left: 400px;
+}
+
 .logo {
-    display: inline;
+    position: relative;
+    /* display: inline; */
     float: left; 
     height: 20%;
     width: 36px;
@@ -57,18 +76,18 @@ p {
 
 .nav {
     background-color: rgb(97, 97, 97);
-    border: solid 100px rgb(97, 97, 97);
-    display: inline;
-    margin: 20px;
+    border: solid 30px rgb(97, 97, 97);
+    margin: 0 0 10px 0;
     text-align: center;
 }
 
 .nav li {
     color: white;
     cursor: pointer;
-    display: inline-flex;
+    display: inline;
     flex-direction: column;
-    /* text-align: center; */
+    font-size: 1.5em;
+    margin: 10px;
     /* width: 100%; */
 }
 
